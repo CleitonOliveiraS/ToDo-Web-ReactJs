@@ -25,7 +25,14 @@ export const RightSide = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    a {
+    
+    button{
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    
+    a{
         color: #FFF;
         font-weight: bold;
         text-decoration: none;
@@ -34,6 +41,7 @@ export const RightSide = styled.div`
             color: #EE6B26;
         }
     }
+    
     #notification{
         img{
             width: 25px;
